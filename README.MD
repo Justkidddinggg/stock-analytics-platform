@@ -12,7 +12,6 @@ pipeline = StockPipeline()
 pipeline.run()
 ```
 
----
 
 ## 📊 DA Layer — Technical Analysis
 
@@ -26,7 +25,6 @@ pipeline.run()
 - AAPL มี volatility ต่ำสุด — เหมาะกับ conservative portfolio
 - AMZN-META มี correlation สูงสุด (0.61) — ไปทิศทางเดียวกัน
 
----
 
 ## 🤖 DS Layer — ML Price Prediction
 
@@ -47,7 +45,6 @@ Linear Regression ชนะ Tree-based models เพราะ:
 - Stock price มี linear relationship กับ lag features สูงมาก
 - Dataset ขนาด 370 rows ไม่เพียงพอสำหรับ Tree-based models
 
----
 
 ## 🖥️ Dashboard
 
@@ -58,7 +55,6 @@ Interactive Streamlit Dashboard แสดง:
 - Correlation Heatmap
 - 90-Day Price Forecast (Prophet)
 
----
 
 ## 🛠️ Tech Stack
 
