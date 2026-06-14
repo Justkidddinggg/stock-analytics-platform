@@ -1,0 +1,33 @@
+tickers:
+  - AAPL
+  - GOOGL
+  - META
+  - MSFT
+  - AMZN
+  - NVDA
+
+data:
+  period: "2y"
+  db_name: "stock_data.db"
+
+technical_indicators:
+  ma_short: 7
+  ma_long: 30
+  rsi_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  bb_period: 20
+  bb_std: 2
+
+ml:
+  test_size: 0.2
+  random_state: 42
+  models:
+    - linear_regression
+    - random_forest
+    - gradient_boosting
+
+logging:
+  level: "INFO"
+  file: "pipeline.log"
